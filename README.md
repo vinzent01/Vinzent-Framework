@@ -1,5 +1,7 @@
 # Express Static Framework
 
+![](screenshot.png)
+
 An **simple Express.js and jQuery powered framework** for building pages and components with ease.
 
 ## Features
