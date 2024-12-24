@@ -1,36 +1,67 @@
-# Vinzent Tools
+# Express Static Framework
 
-![](screenshot.png)
+An **simple Express.js and jQuery powered framework** for building pages and components with ease.
 
-Bem-vindo ao Vinzent.dev Tools, um conjunto de ferramentas úteis desenvolvidas para facilitar o seu dia a dia e aumentar a sua produtividade. Este site oferece uma variedade de utilitários simples e rápidos que podem ser usados tanto por programadores quanto por qualquer entusiasta da tecnologia.
+## Features
 
-## Ferramentas Disponíveis
-- Conversor de Vídeo
-    Converta vídeos de diferentes formatos de forma simples e rápida.
+- **Simple Setup**: Quickly create pages and components.
+- **Express.js Integration**: Leverage the power of Express.js for routing and serving.
+- **jQuery Support**: Utilize jQuery for dynamic and interactive components.
+- **Modular Components**: Reusable and maintainable structure for your project.
+- **Static Page Generation**: Generate and serve optimized static pages for performance.
 
-- Ferramentas de IP e Segurança
-    Gerador de Senhas: Crie senhas fortes e seguras para proteger suas contas.
-    Acessar Gerador de Senhas
-    Meu IP: Verifique o endereço IP atual e as informações de sua rede.
-    Acessar Meu IP
-    Ping: Verifique a conectividade a um servidor usando o comando Ping.
-    Acessar Ping
+## Installation
 
-- Ferramentas de Jogos de RPG
-    Role Dados: Role diferentes dados e faça testes para D&D e outros jogos de RPG.
-    Acessar Role Dados
-- e muitas outras
+```bash
+# Clone the repository
+git clone https://github.com/vinzent01/Vinzent-Framework
 
-## Sobre o Vinzent.dev Tools
+# Navigate to the project directory
+cd Vinzent-Framework
 
-Vinzent.dev Tools é um conjunto de ferramentas criadas por programadores para facilitar a vida de outros desenvolvedores, programadores e entusiastas de tecnologia. O objetivo do site é oferecer utilitários simples e eficientes para diversas necessidades cotidianas.
+# Install dependencies
+npm install
 
-Se você gostou do nosso trabalho, considere Comprar um Café. Seu apoio ajuda a manter as ferramentas em funcionamento e a desenvolver novas funcionalidades!
-Política de Privacidade | Termos de Serviço
+# run development
+npm run dev
 
-## Tecnologias Usadas
+# start
+npm run start
+```
 
-- Node.js com Express.js para o backend
-- HTML5 e CSS3, Javascript para o front-end
-- jQuery para manipulação DOM
-- API de CORS para facilitar chamadas entre diferentes origens
+## Usage
+
+### Development
+
+Run the development server to start building:
+
+```bash
+npm start
+```
+
+Navigate to `http://localhost:3000` in your browser to view your project.
+
+## Folder Structure
+
+```plaintext
+.
+├── public
+│   ├── components    # Reusable components (HTML, CSS, JS)
+│   ├── pages         # Page templates
+│   └── public        # Static assets (images, styles, scripts)
+├── index.js          # Express server setup
+└── package.json      # Project metadata and dependencies
+```
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
