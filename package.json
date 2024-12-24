@@ -1,0 +1,12 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.5",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "dev" : "npx nodemon",
+    "start" : "node index.js"
+  }
+}
