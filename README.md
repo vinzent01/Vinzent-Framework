@@ -10,7 +10,7 @@ An **simple Express.js and jQuery powered framework** for building pages and com
 - **Modular Components**: Reusable and maintainable structure for your project.
 - **Static Page Generation**: Generate and serve optimized static pages for performance.
 
-## Installation
+## Usage
 
 ```bash
 # Clone the repository
@@ -27,16 +27,6 @@ npm run dev
 
 # start
 npm run start
-```
-
-## Usage
-
-### Development
-
-Run the development server to start building:
-
-```bash
-npm start
 ```
 
 Navigate to `http://localhost:3000` in your browser to view your project.
